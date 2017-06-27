@@ -11,3 +11,8 @@ gen
 /mfs-pom/mfs-pom.iml
 /mfs-service/mfs-service.iml
 /mfs-web/mfs-web.iml
+mfs-intf/src/main/java/com/my/intf/test/
+mfs-pom/src/
+mfs-service/src/main/java/com/my/impl/test/
+mfs-web/src/main/java/com/my/controller/test/
+mfs-web/src/main/webapp/
