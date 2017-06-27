@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="mfs-intf" target="1.5" />
-      <module name="mfs-pom" target="1.5" />
-      <module name="mfs-service" target="1.5" />
-      <module name="mfs-web" target="1.5" />
+      <module name="mfs-intf" target="1.8" />
+      <module name="mfs-pom" target="1.8" />
+      <module name="mfs-service" target="1.8" />
+      <module name="mfs-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

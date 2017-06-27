@@ -1,12 +1,18 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="mfs-web:war exploded">
-    <output-path>$PROJECT_DIR$/mfs-web/target/mfs-web-1.0.0</output-path>
+    <output-path>$PROJECT_DIR$/mfs-web/target/mfs-web</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="mfs-web" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="mfs-intf-1.0.0.jar">
+            <element id="module-output" name="mfs-intf" />
+          </element>
+          <element id="archive" name="mfs-service-1.0.0.jar">
+            <element id="module-output" name="mfs-service" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.1.RELEASE" />
@@ -51,7 +57,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/mfs-web/target/mfs-web-1.0.0/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/mfs-web/target/mfs-web/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="mfs-web/web/Web" />
     </root>
